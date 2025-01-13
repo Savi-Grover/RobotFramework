@@ -1,47 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-13T15:29:07.420785" rpa="false" schemaversion="5">
-<suite id="s1" name="Tc2" source="C:\Users\savig\PycharmProjects\PythonProject\.venv\testcases\tc2.robot">
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-13T15:37:18.134238" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc3" source="C:\Users\savig\PycharmProjects\PythonProject\.venv\testcases\tc3.robot">
 <test id="s1-t1" name="LoginTest" line="11">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:29:07.576740" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
+<msg time="2025-01-13T15:37:18.289636" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-13T15:29:07.576740" elapsed="1.819503"/>
+<status status="PASS" start="2025-01-13T15:37:18.289636" elapsed="1.734636"/>
 </kw>
+<kw name="loginToApplication">
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:29:09.396243" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
+<msg time="2025-01-13T15:37:20.025268" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
 <arg>xpath://a[@class='ico-login']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:29:09.396243" elapsed="0.272952"/>
+<status status="PASS" start="2025-01-13T15:37:20.025268" elapsed="0.291614"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:29:09.670193" level="INFO">Typing text 'savi@yopmail.com' into text field 'id:Email'.</msg>
+<msg time="2025-01-13T15:37:20.317880" level="INFO">Typing text 'savi@yopmail.com' into text field 'id:Email'.</msg>
 <arg>id:Email</arg>
 <arg>savi@yopmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:29:09.670193" elapsed="0.137192"/>
+<status status="PASS" start="2025-01-13T15:37:20.317880" elapsed="0.134665"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:29:09.808383" level="INFO">Typing text 'Savi@123' into text field 'id:Password'.</msg>
+<msg time="2025-01-13T15:37:20.453543" level="INFO">Typing text 'Savi@123' into text field 'id:Password'.</msg>
 <arg>id:Password</arg>
 <arg>Savi@123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:29:09.808383" elapsed="0.050863"/>
+<status status="PASS" start="2025-01-13T15:37:20.453543" elapsed="0.051078"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:29:09.859246" level="INFO">Clicking element 'xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
+<msg time="2025-01-13T15:37:20.505617" level="INFO">Clicking element 'xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:29:09.859246" elapsed="0.075305"/>
+<status status="PASS" start="2025-01-13T15:37:20.505617" elapsed="0.085868"/>
+</kw>
+<status status="PASS" start="2025-01-13T15:37:20.025268" elapsed="0.566217"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-13T15:29:09.934551" elapsed="2.111168"/>
+<status status="PASS" start="2025-01-13T15:37:20.591485" elapsed="2.095572"/>
 </kw>
-<status status="PASS" start="2025-01-13T15:29:07.576399" elapsed="4.469848"/>
+<status status="PASS" start="2025-01-13T15:37:18.288636" elapsed="4.399464"/>
 </test>
-<status status="PASS" start="2025-01-13T15:29:07.421783" elapsed="4.625662"/>
+<status status="PASS" start="2025-01-13T15:37:18.136233" elapsed="4.554318"/>
 </suite>
 <statistics>
 <total>
@@ -50,7 +53,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Tc2">Tc2</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tc3">Tc3</stat>
 </suite>
 </statistics>
 <errors>
