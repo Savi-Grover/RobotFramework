@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-13T15:37:18.134238" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-13T16:42:30.141837" rpa="false" schemaversion="5">
 <suite id="s1" name="Tc3" source="C:\Users\savig\PycharmProjects\PythonProject\.venv\testcases\tc3.robot">
 <test id="s1-t1" name="LoginTest" line="11">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:37:18.289636" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
+<msg time="2025-01-13T16:42:30.342450" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-13T15:37:18.289636" elapsed="1.734636"/>
+<status status="PASS" start="2025-01-13T16:42:30.342450" elapsed="1.974242"/>
 </kw>
 <kw name="loginToApplication">
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:37:20.025268" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
+<msg time="2025-01-13T16:42:32.318678" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
 <arg>xpath://a[@class='ico-login']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:37:20.025268" elapsed="0.291614"/>
+<status status="PASS" start="2025-01-13T16:42:32.317682" elapsed="0.373704"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:37:20.317880" level="INFO">Typing text 'savi@yopmail.com' into text field 'id:Email'.</msg>
+<msg time="2025-01-13T16:42:32.691386" level="INFO">Typing text 'savi@yopmail.com' into text field 'id:Email'.</msg>
 <arg>id:Email</arg>
 <arg>savi@yopmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:37:20.317880" elapsed="0.134665"/>
+<status status="PASS" start="2025-01-13T16:42:32.691386" elapsed="0.186132"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:37:20.453543" level="INFO">Typing text 'Savi@123' into text field 'id:Password'.</msg>
+<msg time="2025-01-13T16:42:32.878507" level="INFO">Typing text 'Savi@123' into text field 'id:Password'.</msg>
 <arg>id:Password</arg>
 <arg>Savi@123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:37:20.453543" elapsed="0.051078"/>
+<status status="PASS" start="2025-01-13T16:42:32.878507" elapsed="0.066097"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-01-13T15:37:20.505617" level="INFO">Clicking element 'xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
+<msg time="2025-01-13T16:42:32.945600" level="INFO">Clicking element 'xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-13T15:37:20.505617" elapsed="0.085868"/>
+<status status="PASS" start="2025-01-13T16:42:32.945600" elapsed="0.111052"/>
 </kw>
-<status status="PASS" start="2025-01-13T15:37:20.025268" elapsed="0.566217"/>
+<status status="PASS" start="2025-01-13T16:42:32.317682" elapsed="0.738970"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-13T15:37:20.591485" elapsed="2.095572"/>
+<status status="PASS" start="2025-01-13T16:42:33.056652" elapsed="2.104372"/>
 </kw>
-<status status="PASS" start="2025-01-13T15:37:18.288636" elapsed="4.399464"/>
+<status status="PASS" start="2025-01-13T16:42:30.341450" elapsed="4.820590"/>
 </test>
-<status status="PASS" start="2025-01-13T15:37:18.136233" elapsed="4.554318"/>
+<status status="PASS" start="2025-01-13T16:42:30.143830" elapsed="5.021822"/>
 </suite>
 <statistics>
 <total>
