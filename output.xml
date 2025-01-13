@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-13T15:29:07.420785" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc2" source="C:\Users\savig\PycharmProjects\PythonProject\.venv\testcases\tc2.robot">
+<test id="s1-t1" name="LoginTest" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-13T15:29:07.576740" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-13T15:29:07.576740" elapsed="1.819503"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-01-13T15:29:09.396243" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
+<arg>xpath://a[@class='ico-login']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-13T15:29:09.396243" elapsed="0.272952"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-13T15:29:09.670193" level="INFO">Typing text 'savi@yopmail.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>savi@yopmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-13T15:29:09.670193" elapsed="0.137192"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-13T15:29:09.808383" level="INFO">Typing text 'Savi@123' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>Savi@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-13T15:29:09.808383" elapsed="0.050863"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-13T15:29:09.859246" level="INFO">Clicking element 'xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
+<arg>xpath://div[@id="main"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-13T15:29:09.859246" elapsed="0.075305"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-13T15:29:09.934551" elapsed="2.111168"/>
+</kw>
+<status status="PASS" start="2025-01-13T15:29:07.576399" elapsed="4.469848"/>
+</test>
+<status status="PASS" start="2025-01-13T15:29:07.421783" elapsed="4.625662"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tc2">Tc2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
