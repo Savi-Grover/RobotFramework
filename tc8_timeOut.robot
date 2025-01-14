@@ -33,7 +33,6 @@ Testing Timeout
     input text      name:ConfirmPassword    johnsmith
 
     close browser
-    ## test will pass without speed, but not visible each step
 
 *** Keywords ***
 
