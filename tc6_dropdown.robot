@@ -8,7 +8,7 @@ ${url}      https://rahulshettyacademy.com/AutomationPractice/
 
 
 *** Test Cases ***
-Testing Radio Buttons and Check Boxes
+Testing Dropdown and List
     open browser    ${url}  ${browser}
     maximize browser window
     SeleniumLibrary.Set Selenium Speed     2seconds
@@ -24,7 +24,7 @@ Testing Radio Buttons and Check Boxes
     ## name of list ## get variable value
     select from list by label       dropdown-class-example      Option1
     ## can also use unselect
-    
+
     close browser
 
 *** Keywords ***
