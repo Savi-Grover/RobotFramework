@@ -8,7 +8,7 @@ ${url}      https://rahulshettyacademy.com/AutomationPractice/
 
 
 *** Test Cases ***
-Handling Alerts
+Handling Frames
     open browser    ${url}  ${browser}
     maximize browser window
 
