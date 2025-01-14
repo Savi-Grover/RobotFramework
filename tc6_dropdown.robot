@@ -20,6 +20,11 @@ Testing Radio Buttons and Check Boxes
     select from list by value   dropdown-class-example      option1
     select from list by index   dropdown-class-example      3
 
+    ## select in list
+    ## name of list ## get variable value
+    select from list by label       dropdown-class-example      Option1
+    ## can also use unselect
+    
     close browser
 
 *** Keywords ***
