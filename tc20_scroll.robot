@@ -23,6 +23,10 @@ Scrolling Test
     execute javascript  window.scrollTo(0,document.body.scrollHeight)
     BuiltIn.sleep   3
 
+    ## scroll to top (or starting point)
+    execute javascript  window.scrollTo(0,-document.body.scrollHeight)
+    BuiltIn.sleep   3
+
     close browser
 *** Keywords ***
 
