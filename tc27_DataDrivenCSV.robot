@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 Resource    tc24_loginResouces.robot
-Library     DataDriver      TestData/TestDataRobot.xlsx     sheet_name=Sheet1
+Library     DataDriver      TestData/data.csv
 
 ## to call opening and closing browser just once
 Suite Setup  Open test Browser
@@ -11,7 +11,6 @@ Test Template  Invalid Login
 ## specify all invalid login cases
 *** Test Cases ***
 LoginTestWithExcel1          ${username}          ${password}
-
 
 
 ## making test case related keywords using resources keywords
