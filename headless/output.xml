@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-02-02T21:50:03.543945" rpa="false" schemaversion="5">
+<suite id="s1" name="Headlesschrome" source="C:\Users\savig\PycharmProjects\PythonProject\.venv\testcases\headless\headlesschrome.robot">
+<test id="s1-t1" name="Testing Close Browser" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-02T21:50:03.697576" level="INFO">Opening browser 'headlesschrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-02T21:50:03.697576" elapsed="2.649855"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-02T21:50:06.347431" elapsed="0.017487"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-02T21:50:06.365916" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-02T21:50:06.365916" elapsed="1.966043"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-02T21:50:08.331959" elapsed="0.032135"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-02-02T21:50:08.365242" elapsed="12.342012"/>
+</kw>
+<status status="PASS" start="2025-02-02T21:50:03.697576" elapsed="17.009678"/>
+</test>
+<status status="PASS" start="2025-02-02T21:50:03.543945" elapsed="17.165034"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Headlesschrome">Headlesschrome</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
