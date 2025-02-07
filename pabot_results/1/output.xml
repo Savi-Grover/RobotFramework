@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-02-02T21:43:11.127710" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-02-02T22:47:26.397316" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites">
 <suite id="s1-s1" name="tc31 parallelTests" source="C:\Users\savig\PycharmProjects\PythonProject\.venv\testcases\testSuite\tc31_parallelTests.robot">
 <test id="s1-s1-t1" name="TestInputBox" line="11">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-02-02T21:43:11.302424" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
+<msg time="2025-02-02T22:47:26.627649" level="INFO">Opening browser 'headlesschrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-02-02T21:43:11.302424" elapsed="2.762954"/>
+<status status="PASS" start="2025-02-02T22:47:26.626650" elapsed="3.106544"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-02-02T21:43:14.065378" elapsed="0.021681"/>
+<status status="PASS" start="2025-02-02T22:47:29.733194" elapsed="0.015957"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-02-02T21:43:14.087059" elapsed="2.089708"/>
+<status status="PASS" start="2025-02-02T22:47:29.749151" elapsed="2.066092"/>
 </kw>
-<status status="PASS" start="2025-02-02T21:43:11.302424" elapsed="4.874343"/>
+<status status="PASS" start="2025-02-02T22:47:26.626650" elapsed="5.189591"/>
 </test>
-<status status="PASS" start="2025-02-02T21:43:11.160464" elapsed="5.016303"/>
+<status status="PASS" start="2025-02-02T22:47:26.430549" elapsed="5.387689"/>
 </suite>
-<status status="PASS" start="2025-02-02T21:43:11.143342" elapsed="5.033425"/>
+<status status="PASS" start="2025-02-02T22:47:26.416063" elapsed="5.404183"/>
 </suite>
 <statistics>
 <total>

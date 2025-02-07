@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ##Global *** variables ***
-${browser}  chrome
+${browser}  headlesschrome
 ${url}      https://demo.nopcommerce.com/login?returnUrl=%2F
 
 
